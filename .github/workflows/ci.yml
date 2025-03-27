@@ -24,3 +24,6 @@ jobs:
 
     - name: Build project
       run: npm run build
+    
+    - name: Print deployment url
+      run: echo "Deployed"
