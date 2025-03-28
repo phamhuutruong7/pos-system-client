@@ -8,7 +8,7 @@ const count = ref(0)
 
 <template>
   <h1>{{ msg }}</h1>
-
+  <h1>This is a test message</h1>
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
